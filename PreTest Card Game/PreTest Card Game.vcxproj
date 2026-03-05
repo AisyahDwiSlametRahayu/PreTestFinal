@@ -123,7 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PreTest Card Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModifierFactory.cpp" />
+    <ClCompile Include="RunSession.cpp" />
+    <ClCompile Include="ScoringSystem.cpp" />
+    <ClCompile Include="ShopSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoubleScoreModifier.h" />
+    <ClInclude Include="FlatBonusModifier.h" />
+    <ClInclude Include="IModifier.h" />
+    <ClInclude Include="ModifierFactory.h" />
+    <ClInclude Include="RunSession.h" />
+    <ClInclude Include="ScoringSystem.h" />
+    <ClInclude Include="ShopSystem.h" />
+    <ClInclude Include="SquareScoreModifier.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
